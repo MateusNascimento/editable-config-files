@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppConfig } from './app.config';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'editable-config-files';
+  info = AppConfig.settings.adalConfig.tenant;
 }

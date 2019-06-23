@@ -1,0 +1,11 @@
+{
+    "adalConfig": {
+        "tenant": "<tenant>",
+        "clientId": "<clientId>",
+        "redirectUri": "http://localhost:4200/",
+        "endpoints": {
+            "http://localhost:4200/": "<clientId>"},
+        "navigateToLoginRequestUrl": false,
+        "cacheLocation": "localStorage"
+    }
+}
